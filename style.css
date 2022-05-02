@@ -1,0 +1,22 @@
+body {
+  font-family: 'Mulish', sans-serif;
+}
+.max-height {
+  max-height: none !important;
+}
+.nav-item-color {
+  color: #0d2d3e;
+}
+.color {
+  color: #6785ff !important;
+}
+.background-color {
+  background-color: #6785ff !important;
+  button-border-color: transparent;
+}
+.line {
+  padding-right: 12px;
+  margin-right: 8px;
+  border-right: 2px solid #eee;
+  min-height: 1.5rem;
+}
