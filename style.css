@@ -10,13 +10,30 @@ body {
 .color {
   color: #6785ff !important;
 }
-.background-color {
+.background-color,
+button.is-rounded {
   background-color: #6785ff !important;
-  button-border-color: transparent;
 }
 .line {
   padding-right: 12px;
   margin-right: 8px;
   border-right: 2px solid #eee;
   min-height: 1.5rem;
+}
+.hero-background {
+  background-image: url('/images/h1_hero.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.heading-1 {
+  font-size: 70px;
+  max-width: 41rem;
+}
+p.has-text-weight-normal {
+  font-size: 27px;
+}
+button.is-rounded {
+  border: none;
+  padding: 2rem 2.5rem !important;
 }
