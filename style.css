@@ -7,7 +7,8 @@ body {
 .nav-item-color {
   color: #0d2d3e;
 }
-.color {
+.color,
+.process-color {
   color: #6785ff !important;
 }
 .background-color,
@@ -36,4 +37,18 @@ p.has-text-weight-normal {
 button.is-rounded {
   border: none;
   padding: 2rem 2.5rem !important;
+}
+.anchor,
+.heading-color {
+  color: #1c165c;
+}
+.paragraph {
+  color: #57667e;
+  line-height: 30px;
+}
+.horizontal-line {
+  border-bottom: 1px solid #dee2e6;
+}
+.background-image {
+  background-image: url('/images/background-container-image.png');
 }
