@@ -1,116 +1,87 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Template</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="hero">
-    <nav
-      class="navbar py-4 is-fixed-top has-background-white"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand py-1 pl-6">
-        <a class="navbar-item">
-          <img
-            class="max-height"
-            src="/images/index.png"
-            width="159"
-            height="39"
-          />
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+</head>
+
+<body class="hero">
+  <nav class="navbar py-4 is-fixed-top has-background-white" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand py-1 pl-6">
+      <a class="navbar-item">
+        <img class="max-height" src="/images/index.png" width="159" height="39" />
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="has-text-weight-bold is-size-6 navbar-item nav-item-color mx-5">
+          Home
         </a>
 
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5">
+          About
+        </a>
+
+        <a class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5">
+          Services
+        </a>
+
+        <a class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5">
+          Blog
+        </a>
+
+        <a class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5">
+          Contact
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a
-            class="has-text-weight-bold is-size-6 navbar-item nav-item-color mx-5"
-          >
-            Home
-          </a>
-
-          <a
-            class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5"
-          >
-            About
-          </a>
-
-          <a
-            class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5"
-          >
-            Services
-          </a>
-
-          <a
-            class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5"
-          >
-            Blog
-          </a>
-
-          <a
-            class="has-text-weight-bold is-size-6 navbar-item nav-item-color mr-5"
-          >
-            Contact
-          </a>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="mt-4"><img src="/images/call-logo.png" /></div>
-            <div class="mt-4 line"></div>
-            <div class="buttons">
-              <a class="color is-size-5 pr-5">
-                <div class="has-text-weight-bold">(08) 728 256 266</div>
-              </a>
-              <a
-                class="button is-large has-text-white background-color is-size-6 has-text-weight-bold"
-              >
-                Make an Appointment
-              </a>
-            </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="mt-4"><img src="/images/call-logo.png" /></div>
+          <div class="mt-4 line"></div>
+          <div class="buttons">
+            <a class="color is-size-5 pr-5">
+              <div class="has-text-weight-bold">(08) 728 256 266</div>
+            </a>
+            <a class="button is-large has-text-white background-color is-size-6 has-text-weight-bold">
+              Make an Appointment
+            </a>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section class="hero is-medium hero-background mt-6">
-      <div class="hero-body">
-        <h1 class="heading-1 title has-text-white has-text-weight-bold">
-          Quality Laundry Service In Your City
-        </h1>
-        <p class="subtitle has-text-white has-text-weight-normal my-5 ml-1">
-          We take care about cleenness of your cloth
-        </p>
-        <button
-          class="button is-rounded my-5 has-text-white has-text-weight-light"
-        >
-          <span class="is-size-5">Explore Services</span>
-        </button>
-      </div>
-    </section>
+  <section class="hero is-medium hero-background mt-6">
+    <div class="hero-body">
+      <h1 class="heading-1 title has-text-white has-text-weight-bold is-size-4-mobile">
+        Quality Laundry Service In Your City
+      </h1>
+      <p class="subtitle has-text-white has-text-weight-normal my-5 ml-1 is-size-5-mobile">
+        We take care about cleenness of your cloth
+      </p>
+      <button class="button is-rounded my-5 has-text-white has-text-weight-light">
+        <span class="is-size-5">Explore Services</span>
+      </button>
+    </div>
+  </section>
 
+  <div class="container is-widescreen">
     <section class="section is-medium py-6">
       <div class="has-text-centered pt-6">
         <p class="process-color mb-4 tag is-rounded is-medium has-background-link-light">Our Process</p>
@@ -121,8 +92,7 @@
           <img class="mb-5" src="/images/services-icon1.svg" />
           <div class="has-text-centered">
             <a class="anchor is-size-4 has-text-weight-semibold" href="#">
-              We collect you clothes</a
-            >
+              We collect you clothes</a>
             <p class="is-size-6 paragraph mt-4">
               The automated process starts as soon as your clothes go into the
               machine. The outcome is gleaming clothes!
@@ -133,8 +103,7 @@
           <img class="mb-5" src="/images/services-icon2.svg" />
           <div class="has-text-centered">
             <a class="anchor is-size-4 has-text-weight-semibold" href="#">
-              Wash Your Clothes</a
-            >
+              Wash Your Clothes</a>
             <p class="is-size-6 paragraph mt-4">
               The automated process starts as soon as your clothes go into the
               machine. The outcome is gleaming clothes!
@@ -145,8 +114,7 @@
           <img class="mb-5" src="/images/services-icon3.svg" />
           <div class="has-text-centered">
             <a class="anchor is-size-4 has-text-weight-semibold" href="#">
-              Get Delivery</a
-            >
+              Get Delivery</a>
             <p class="is-size-6 paragraph mt-4">
               The automated process starts as soon as your clothes go into the
               machine. The outcome is gleaming clothes!
@@ -155,8 +123,10 @@
         </div>
       </div>
     </section>
-    <div class="horizontal-line"></div>
+  </div>
+  <div class="horizontal-line"></div>
 
+  <div class="container">
     <section class="section">
       <div class="has-text-centered">
         <p class="process-color mb-4 tag is-rounded is-medium has-background-link-light">Services</p>
@@ -164,43 +134,214 @@
       </div>
       <div class="columns is-gapless mb-0">
         <div class="column">
-          <img src="images/photo-a.png">
+          <img class="photo" src="images/photo-a.png" />
         </div>
-        <div class="column has-text-centered background-image is-flex is-flex-direction-column is-justify-content-center">
+        <div
+          class="column has-text-centered background-image is-flex is-flex-direction-column is-justify-content-center">
           <div class="p-6"><img class="mb-5" src="/images/photo-tub.png" />
             <div class="has-text-centered">
               <a class="has-text-white is-size-4 has-text-weight-semibold" href="#">
-                Cloth Laundry</a
-              >
+                Cloth Laundry</a>
               <p class="is-size-6 has-text-white mt-4 mb-2">
                 The automated process starts as soon as your
               <p class="is-size-6 has-text-white mb-2">clothes go into the
-                  machine. The outcome is</p>
+                machine. The outcome is</p>
               <p class="is-size-6 has-text-white">gleaming clothes!</p>
               </p>
-            </div></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="columns is-gapless mb-0 is-flex-direction-row-reverse">
         <div class="column">
-          <img src="images/photo-b.png">
+          <img class="photo" src="images/photo-b.png" />
         </div>
-        <div class="column has-text-centered background-image is-flex is-flex-direction-column is-justify-content-center">
+        <div
+          class="column has-text-centered background-image is-flex is-flex-direction-column is-justify-content-center">
           <div class="p-6"><img class="mb-5" src="/images/photo-tub.png" />
             <div class="has-text-centered">
               <a class="has-text-white is-size-4 has-text-weight-semibold" href="#">
-                Cloth Laundry</a
-              >
+                Cloth Laundry</a>
               <p class="is-size-6 has-text-white mt-4 mb-2">
                 The automated process starts as soon as your
               <p class="is-size-6 has-text-white mb-2">clothes go into the
-                  machine. The outcome is</p>
+                machine. The outcome is</p>
               <p class="is-size-6 has-text-white">gleaming clothes!</p>
               </p>
-            </div></div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="section">
+      <div class="background px-5 py-6">
+        <div class="columns my-5">
+          <div class="column is-9 is-four-fifths">
+            <h1 class="title has-text-white has-text-weight-bold is-size-3">Call us for a service</h1>
+            <p class="has-text-white is-size-5">We deliver the goods to the most complicated places on earth</p>
+          </div>
+          <div class="column is-flex is-align-items-center">
+            <button class="button is-rounded has-text-white has-text-weight-light">
+              <img src="images/call2.png.webp" />
+              <span class="is-size-5 pl-3">Learn More</span>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
-  </body>
+
+    <section class="section">
+      <div class="columns is-mobile is-align-items-center pb-6">
+        <div class="column">
+          <i class="fa-solid fa-less-than"></i>
+        </div>
+        <div class="column has-text-centered is-two-thirds">
+          <img class="testimonial" src="/images/testimonila2.png" />
+          <img class="" src="/images/testimonila3.png" />
+          <img class="testimonial" src="/images/testimonila2.png" />
+          <p class="is-size-5 has-text-black mb-5">The automated process starts as soon as your clothes go into the
+            machine. The outcome is gleaming clothes!</p>
+          <div class="icons mb-1">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="is-size-5 has-text-black">- Rupaya</p>
+        </div>
+        <div class="column is-flex is-justify-content-end">
+          <i class="fa-solid fa-greater-than"></i>
+        </div>
+      </div>
+      <div class="horizontal-line pb-6"></div>
+    </section>
+
+    <section class="section py-6">
+      <div class="has-text-centered pt-4">
+        <p class="process-color mb-4 tag is-rounded is-medium has-background-link-light">Fun Fact</p>
+        <h1 class="heading-color has-text-weight-semibold is-size-2 mb-6">Company achievement</h1>
+      </div>
+      <div class="columns">
+        <div class="column has-text-centered is-4">
+          <h1 class="number-color has-text-weight-semibold is-size-1">4000</h1>
+          <p class="is-size-6 paragraph mt-4">
+            The automated process starts as soon as your clothes go into the
+            machine.
+          </p>
+        </div>
+        <div class="column has-text-centered is-4">
+          <h1 class="number-color has-text-weight-semibold is-size-1">300+</h1>
+          <p class="is-size-6 paragraph mt-4">
+            The automated process starts as soon as your clothes go into the
+            machine.
+          </p>
+        </div>
+        <div class="column has-text-centered is-4">
+          <h1 class="number-color has-text-weight-semibold is-size-1">95%</h1>
+          <p class="is-size-6 paragraph mt-4">
+            The automated process starts as soon as your clothes go into the
+            machine.
+          </p>
+        </div>
+      </div>
+      <div class="is-flex is-justify-content-center">
+        <img src="/images/cloudy.png" />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="columns">
+        <div class="column is-6">
+          <img class="photo" src="images/photo.png" />
+        </div>
+        <div class="column is-5 is-offset-1 is-flex-direction-column is-justify-content-center is-vcentered">
+          <div class="">
+            <h1 class="heading-color has-text-weight-semibold is-size-2 mb-5">About company</h1>
+            <p class="is-size-6 paragraph mb-5">The automated process starts as soon as your clothes go into the
+              machine. The outcome is gleaming clothes!
+            </p>
+            <p class="is-size-6 paragraph mb-6">The automated process starts as soon as your clothes go into the
+              machine. The outcome is gleaming clothes!
+            </p>
+            <button class="button is-rounded has-text-white has-text-weight-light">
+              <span class="is-size-5">About Us</span>
+            </button>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <section class="pt-6 ">
+    <img class="pt-5" src="/images/Map.png" />
+  </section>
+
+  <footer>
+    <section class="section mt-6">
+      <div class="container">
+        <div class="columns is-justify-content-space-between">
+          <div class="column is-4">
+            <img src="images/index.png">
+            <p class="is-size-6 paragraph mt-5">
+              Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+            </p>
+            <div>
+              <a href="#">
+                <span class="icon is-large">
+                  <i class="fa-brands fa-twitter"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="icon is-large">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="icon is-large">
+                  <i class="fa-brands fa-pinterest-p"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="column is-3">
+            <h1 class="has-text-weight-semibold is-size-4 heading-color mb-5">Services</h1>
+            <ul class="paragraph">
+              <a class ="paragraph" href="#">
+                <li class="mb-2"> - Dry Cleaning </li>
+              </a>
+              <a class ="paragraph" href="#">
+                <li class="mb-2"> - Dry Clean </li>
+              </a>
+              <a class ="paragraph" href="#">
+                <li class="mb-2"> - Ironing Services </li>
+              </a>
+              <a class ="paragraph" href="#">
+                <li class="mb-2"> - Laundry Service London </li>
+              </a>
+              <a class ="paragraph" href="#">
+                <li class=""> - Laundry App </li>
+              </a>
+            </ul>
+          </div>
+          <div class="column is-3">
+            <h1 class="has-text-weight-semibold is-size-4 heading-color mb-5">Get in touch</h1>
+            <a class="color is-size-4">
+              <div class="has-text-weight-light mb-4">(90) 898 789-8957</div>
+            </a>
+            <ul class="paragraph">
+              <li class="mb-2">laundry@567.com</li>
+              <li class="">789/A, Green road NYC-9089</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-image has-text-centered is-vcentered footer-padding pt-6 pb-3">
+      <p class="container mt-3">Copyright ©2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a href="#">Colorlib</a></p>
+    </div>
+  </footer>
+</body>
+
 </html>

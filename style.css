@@ -8,7 +8,8 @@ body {
   color: #0d2d3e;
 }
 .color,
-.process-color {
+.process-color,
+.number-color {
   color: #6785ff !important;
 }
 .background-color,
@@ -39,7 +40,8 @@ button.is-rounded {
   padding: 2rem 2.5rem !important;
 }
 .anchor,
-.heading-color {
+.heading-color,
+.fa-heart {
   color: #1c165c;
 }
 .paragraph {
@@ -49,6 +51,32 @@ button.is-rounded {
 .horizontal-line {
   border-bottom: 1px solid #dee2e6;
 }
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .background-image {
   background-image: url('/images/background-container-image.png');
+}
+.background {
+  background-image: url('/images/section_bg01.png.webp');
+  background-position: center;
+  background-size: cover;
+}
+.testimonial {
+  transform: scale(0.6);
+  opacity: 0.4;
+}
+.icons {
+  color: #fbba42 !important;
+  font-size: 15px;
+}
+.icon.is-large {
+  background-color: rgba(103, 133, 255, 0.08);
+  border-radius: 100%;
+}
+.footer-image {
+  background-image: url('/images/footer-bg.png');
+  background-repeat: no-repeat;
 }
