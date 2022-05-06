@@ -80,3 +80,14 @@ button.is-rounded {
   background-image: url('/images/footer-bg.png');
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer-image {
+    background-size: contain;
+    background-position: bottom;
+    padding-bottom: 0 !important;
+  }
+  .footer-paragraph {
+    font-size: 14px;
+  }
+}
